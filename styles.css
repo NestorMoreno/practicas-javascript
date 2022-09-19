@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red: hsl(15, 100%, 70%);
+    --Soft-blue: hsl(195, 74%, 62%);
+    --Light-red: hsl(348, 100%, 68%);
+    --Lime-green: hsl(145, 58%, 55%);
+    --Violet: hsl(264, 64%, 52%);
+    --Soft-orange: hsl(43, 84%, 65%);
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+    --White: #ffffff;
+}
+
+body{
+    background-color: var(--Very-dark-blue);
+    font-family: 'Rubik', sans-serif;
+    color: var(--Pale-Blue);
+}
+
+.main-container{
+    /* border: 2px solid white; */
+    width: 328px;
+    margin: 158px auto;
+    position: relative;
+}
+
+.first-section{
+    /* border: 1px solid yellow; */
+}
+
+/* 
+.main-card__user{
+    border: 1px solid white;
+} */
+
+.main-card__user{
+    background-color: var(--Blue);
+    display: flex;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.main-card__image{
+    width: 72px;
+    margin-right: 10px;
+    border: 3px solid var(--White);
+    border-radius: 50%;
+}
+
+.main-card__title{
+    font-size: 0.9em;
+    margin-top: 10px 0 4px;
+}
+
+.main-card__name{
+    font-size: 1.5em;
+    font-weight: 300;
+    color: var(--White);
+}
+
+.main-card__dates{
+    background-color: var(--Dark-blue);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    /* align-items: center; */
+    font-size: 1.2em;
+    position: absolute;
+    top: 105px;
+    z-index: -1;
+    width: 100%;
+    padding-top:52px ;
+}
+
+
+.second-section{
+    margin-top: 96px;
+}
+
+
+/* https://www.youtube.com/watch?v=52q6OGbcIso */
+/* 1:35:57 */
